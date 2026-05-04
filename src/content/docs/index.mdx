@@ -1,40 +1,73 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: SattaSpace Documentation
+description: Official documentation for SattaSpace Ecosystem - Authentication, billing, and identity management for modern applications.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Build faster with unified authentication, billing, and identity management
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/favicon.svg
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Start Building
+      link: /getting-started
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+      variant: primary
+    - text: SattaBase Docs
+      link: /sattabase/userguide
+      icon: document
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## What is SattaSpace?
+
+SattaSpace is a unified platform that handles **authentication**, **billing**, and **identity management** for modern applications. Stop building infrastructure—start shipping products.
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+    <Card title="SattaBase" icon="user">
+        **Authentication & Billing Hub**
+
+        Single sign-on for the entire ecosystem. Manage subscriptions, handle payments via Stripe, and access all services from one dashboard.
+    </Card>
+    <Card title="Coming Soon" icon="rocket">
+        **More Products Ahead**
+
+        We're expanding the ecosystem with new tools. Stay tuned for updates.
+    </Card>
 </CardGrid>
+
+## Core Features
+
+<CardGrid stagger>
+    <Card title="Unified Identity" icon="key">
+        One account. All services. No more managing multiple logins.
+    </Card>
+    <Card title="Enterprise Security" icon="shield">
+        OTP verification, password policies, and session management built-in.
+    </Card>
+    <Card title="Stripe Billing" icon="credit-card">
+        Subscriptions, proration, and multi-currency support out of the box.
+    </Card>
+    <Card title="GDPR Ready" icon="document">
+        Data portability and account control. Export anytime.
+    </Card>
+    <Card title="Dark Mode" icon="sparkle">
+        Beautiful, accessible interface that works day and night.
+    </Card>
+    <Card title="Developer APIs" icon="code">
+        RESTful APIs and webhooks for seamless integration.
+    </Card>
+</CardGrid>
+
+## Get Started
+
+| I want to... | Go to |
+|--------------|-------|
+| Create an account | [SattaBase →](https://base.sattaspace.com) |
+| Learn the basics | [Getting Started →](/getting-started) |
+| Read full documentation | [SattaBase User Guide →](/sattabase/userguide) |
+| Contribute to docs | [GitHub Repository →](https://github.com/sattaspace/sattadocs) |
+
+---
+
+> 📘 **Open Source** — Found an issue or want to improve these docs? Contributions welcome on [GitHub](https://github.com/sattaspace/sattadocs).
